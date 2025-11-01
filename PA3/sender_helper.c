@@ -22,7 +22,7 @@ int q_len = 0;
 // send buffer, buf, of length len
 void rdt_send(const void *buf, size_t len)
 {
-	struct Packet *p = malloc(sizeof(struct Packet));;
+	struct Packet *p = malloc(sizeof(struct Packet));
 	p->pkt = buf;
 	p->seq_no = seq;
 	p->len = len;
