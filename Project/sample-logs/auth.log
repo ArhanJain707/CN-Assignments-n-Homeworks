@@ -1,0 +1,10 @@
+2025-11-18T08:00:01Z INFO auth User login succeeded for alice
+2025-11-18T08:01:42Z WARN auth Password attempt timeout for bob
+2025-11-18T08:02:03Z ERROR auth Login failed for user charlie
+2025-11-18T08:05:17Z INFO auth User logout for alice
+2025-11-18T08:06:55Z CRITICAL auth Multiple failed logins detected for admin
+2025-11-18T08:07:10Z INFO auth User login succeeded for diana
+2025-11-18T08:10:30Z WARN auth Password attempt timeout for bob
+2025-11-18T08:11:45Z INFO auth Token refresh for service-account
+2025-11-18T08:12:59Z ERROR auth Access denied for unknown user
+2025-11-18T08:15:22Z INFO auth Session destroyed for bob

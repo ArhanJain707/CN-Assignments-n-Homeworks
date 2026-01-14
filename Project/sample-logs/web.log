@@ -1,0 +1,10 @@
+2025-11-18T09:00:00Z INFO web GET /api/health 200
+2025-11-18T09:00:05Z INFO web GET /api/users 200
+2025-11-18T09:00:07Z WARN web GET /api/report 429 rate limit
+2025-11-18T09:00:14Z ERROR web POST /api/login failed captcha
+2025-11-18T09:00:20Z INFO web GET /api/health 200
+2025-11-18T09:00:44Z CRITICAL web WAF blocked SQL injection attempt
+2025-11-18T09:01:01Z INFO web GET / 200 cache-hit
+2025-11-18T09:01:10Z WARN web GET /api/data timeout upstream
+2025-11-18T09:01:33Z ERROR web POST /api/upload attack vector detected
+2025-11-18T09:01:55Z INFO web GET /docs 200

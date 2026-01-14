@@ -1,0 +1,3 @@
+add_executable(test_log_analyzer test_log_analyzer.c)
+target_link_libraries(test_log_analyzer PRIVATE loganalyzer)
+add_test(NAME log_analyzer_tests COMMAND test_log_analyzer)
